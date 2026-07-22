@@ -1,0 +1,29 @@
+# Week4 Day3 - GIT Concepts (Module 11)
+
+## Key Concepts
+- Repository: Folder tracked by Git with full history
+- Commit: A snapshot of changes with a message
+- Branch: Parallel version of code (e.g., main, feature branches)
+- Merge: Combining changes from one branch into another
+- Pull Request: Review request before merging into main
+
+## Commands Practiced
+git checkout -b <name>   - create + switch to new branch
+git add . / git commit   - stage and save changes
+git checkout main        - switch back to main branch
+git merge <branch>       - merge feature branch into main
+git push                 - upload to GitHub
+git branch -d <name>     - delete branch after merging
+git log --oneline        - view commit history
+
+## Workflow Practiced Today
+1. Created feature-git-practice branch
+2. Made a change and committed on that branch
+3. Switched back to main
+4. Merged feature branch into main (fast-forward merge)
+5. Pushed to GitHub
+6. Deleted the feature branch (cleanup)
+
+## Why It Matters
+This is the real branching workflow used in teams - prevents conflicts, 
+keeps main branch stable, and allows safe experimentation on separate branches.
